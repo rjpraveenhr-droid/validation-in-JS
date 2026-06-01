@@ -86,7 +86,13 @@
                         document.getElementById("result").textContent = "So close, " + name + "! The lucky number was " + lucky + "Try again!";
                         document.getElementById("result").style.color = "navy";
                     }
-                }
+                } else {
+                    if (num >= 1 && num <= 5 ) {
+                        return true;
+                    } 
+                 }  {
+                    return false;
+                 }
             }
         </script>
     </body>
